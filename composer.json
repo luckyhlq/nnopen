@@ -1,6 +1,8 @@
 {
     "name": "luckyhlq/nnopen",
     "description": "sdk for ISV or merchant of nuonuo open platform",
+    "type": "library",
+    "license": "MIT",
     "keywords": [
         "nuonuo", "open platform", "sdk-php"
     ],
