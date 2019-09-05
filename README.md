@@ -9,10 +9,14 @@ composer
 composer require luckyhlq/nnopen
 
 include "./vendor/autoload.php";
+
 use \Nnuo\Open\Api;
 
 $appKey = "your.appKey";
+
 $appSecret = "your.appSecret";
+
 $res = Api::getMerchantToken($appKey, $appSecret);
+
 var_dump($res);
 
