@@ -1,11 +1,14 @@
 # nnopen
 诺诺开放平台接口封装
 
-依赖
+依赖：
+
 curl扩展
+
 composer
 
-使用方法
+使用方法：
+
 composer require luckyhlq/nnopen
 
 include "./vendor/autoload.php";
