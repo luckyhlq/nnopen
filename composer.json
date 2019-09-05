@@ -1,0 +1,25 @@
+{
+    "name": "luckyhlq/nnopen",
+    "description": "sdk for ISV or merchant of nuonuo open platform",
+    "keywords": [
+        "nuonuo", "open platform", "sdk-php"
+    ],
+    "authors": [
+        {
+            "name": "liqiao",
+            "email": "434662290@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.36 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {"Nnuo\\Open\\": "lib"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Nnuo\\Open\\": "lib"}
+    }
+}
